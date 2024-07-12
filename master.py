@@ -13,4 +13,4 @@ base_characters =  string.ascii_lowercase + string.ascii_uppercase + string.punc
 
 # using list comprehension method
 password = "".join([random.choice(base_characters) for i in range(password_len)])
-print(password)
+print(password) 
